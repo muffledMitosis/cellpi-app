@@ -1,0 +1,3 @@
+[submodule "pySIM7020"]
+	path = pySIM7020
+	url = https://github.com/muffledMitosis/pySIM7020.git
