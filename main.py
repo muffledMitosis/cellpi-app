@@ -1,4 +1,6 @@
-from SIM7020.Device import Device
+from pySIM7020.src.Device import Device
+from pySIM7020.src.TCP import TCP
 
 device = Device()
-print(device.getUARTOps())
+tcp = TCP(device)
+print(tcp.getDevice())
